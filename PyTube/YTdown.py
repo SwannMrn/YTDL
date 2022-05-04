@@ -5,25 +5,50 @@ yt = YouTube(link)
 
 save_path = ''
 
-def vid_info():
-  print("Title: ",yt.title) # Title of video
-  print("Author: ",yt.author) # author of the video
-  print("Number of views: ",yt.views) # Number of views of video
-  print("Length of video: ",yt.length," seconds")  # Length of the video
-  print(yt.streams) # Printing all the available streams
+def vid_title():
+  return yt.title
 
-audio = yt.streams.filter(only_audio=True) 
-# audio only, ready to play
+def vid_author():
+  return yt.author
 
-video = yt.streams.filter(only_video=True) 
-# has no audio, must download separately, not ready to play
+def vid_length():
+  return yt.length
 
-prog = yt.streams.filter(progressive="True") 
-# progressive video has built in audio, ready to play
+def vid_publishdate():
+  return yt.publish_date
 
-"""itag = int(input("Enter the itag of the stream you wish to download. "))
+def vid_title():
+  return yt.title
 
-stream = yt.streams.get_by_itag(itag)
-stream.download()"""
+def vid_views():
+  return yt.views
 
-vid_info()
+def vid_desc():
+  return yt.description
+
+def vid_streams():
+  return yt.streams
+
+def audio_streams():
+  audio = yt.streams.filter(only_audio=True) 
+  # audio only, ready to play
+  return audio
+
+def video_streams():
+  video = yt.streams.filter(only_video=True) 
+  # has no audio, must download separately, not ready to play
+  return video
+
+def progressive_streams():
+  prog = yt.streams.filter(progressive="True") 
+  # progressive video has built in audio, ready to play
+  return progressive
+
+def download():
+  print(vid_streams)
+  itag = int(input("Enter the itag of the stream you wish to download. "))
+  stream = yt.streams.get_by_itag(itag)
+  stream.download()
+  return none
+
+download()
