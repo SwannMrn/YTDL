@@ -11,4 +11,4 @@ def ytdl(data):
   with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([link])
 
-eel.start('index.html',  size=(1000,600)
+eel.start('index.html',  size=(1000,600))
