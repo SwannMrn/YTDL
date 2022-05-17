@@ -14,7 +14,7 @@ input {
 
 form {
   text-align: center;
-  border-radius: 3px;
-  padding: 12px 10px;
-  border: 2px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  border: 10px;
 }
