@@ -1,6 +1,6 @@
 # PyTube
 
-### Youtube Downloader based on Python and HTML using Eel module
+### YouTube Downloader based on Python and HTML using Eel module
 
 #### ToDo:
   - Make python functions to download videos and audios
