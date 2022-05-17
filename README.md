@@ -9,3 +9,5 @@
   - CSS to style this GUI
 
 - [Eel tutorial (good)](https://www.youtube.com/watch?v=8eeUV1RHkmw)
+- [Color Palette](https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429)
+- [CSS tutorial](https://www.w3schools.com/css/css_form.asp)
