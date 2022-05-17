@@ -12,8 +12,8 @@ def ytdl(data):
   with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([link])
 
-try:
-  eel.start('index.html', size=(1000, 600))
-except (SystemExit, MemoryError, KeyboardInterrupt):
-      #Handle errors and the potential hanging python.exe process
-      os.system('taskkill /F /IM python.exe /T')
+def close_callback(route, websockets):
+  if not websockets:
+    exit()
+
+eel.start('index.html', size=(1000, 600), close_callback=close_callback)
