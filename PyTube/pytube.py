@@ -1,7 +1,8 @@
 from __future__ import unicode_literals
+import os
 import io
 import eel
-import youtube_dl
+import you
 
 eel.init('web')
 
@@ -11,4 +12,8 @@ def ytdl(data):
   with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([link])
 
-eel.start('index.html',  size=(1000,600))
+try:
+  eel.start('index.html', size=(1000, 600))
+except (SystemExit, MemoryError, KeyboardInterrupt):
+      #Handle errors and the potential hanging python.exe process
+      os.system('taskkill /F /IM python.exe /T')
