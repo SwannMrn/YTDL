@@ -24,6 +24,7 @@ input {
 
 
 form {
+  
   text-align: center;
   
   
@@ -31,6 +32,6 @@ form {
   
   padding: 12px 10px;
   
-  border: 10px;
+  border: 50px;
 
   }
