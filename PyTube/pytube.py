@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import os
 import io
 import eel
-import you
+import youtube_dl
 
 eel.init('web')
 
