@@ -10,11 +10,11 @@ h1 {
 
 input {
   background-color: #8d99ae;
+  border-radius: 10px;
+  padding: 10px 10px;
+  border: 10px;
 }
 
 form {
   text-align: center;
-  border-radius: 10px;
-  padding: 10px 10px;
-  border: 10px;
 }
