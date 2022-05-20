@@ -21,6 +21,10 @@ input {
   outline: none;
 }
 
+input:hover{
+  text-color: whitesmoke
+}
+
 button {
   font-size: 1em;
   padding: 8.5px 10px;
