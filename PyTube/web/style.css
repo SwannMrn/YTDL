@@ -36,5 +36,11 @@ button {
 }
 
 button:hover {
-  padding: 10px 12px;
+  background-color: #b54235;
+  cursor: pointer;
 }
+
+.button {
+  background-color: #a13a2f;
+}
+  
