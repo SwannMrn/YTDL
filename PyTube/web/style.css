@@ -40,7 +40,7 @@ button:hover {
   cursor: pointer;
 }
 
-.button {
+.button:active {
   background-color: #a13a2f;
 }
   
