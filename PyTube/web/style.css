@@ -5,6 +5,7 @@ body {
   }
 
 
+
 h1 {
   
   text-align: center;
@@ -16,11 +17,21 @@ h1 {
 }
 
 
+
 input {
   
   background-color: #8d99ae;
 
+  border-radius: 10px;
+  
+  padding: 12px 10px;
+  
+  border: 50px;
+
+
+
   }
+
 
 
 form {
@@ -28,10 +39,4 @@ form {
   text-align: center;
   
   
-  border-radius: 10px;
-  
-  padding: 12px 10px;
-  
-  border: 50px;
-
   }
