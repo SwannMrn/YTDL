@@ -3,11 +3,11 @@
 ### A YouTube Downloader based on Python, JavaScript and HTML using the [Eel](https://pypi.org/project/Eel/) module
 
 #### ToDo:
-  - Python file with Eel for startup and functions (backend)
-  - JavaScript to download and communicate with YouTube using a server (backend)
-  - Make HTML code for front page (frontend)
-  - CSS to style the GUI (backend)
-  - Use Eel to communicate between HTML/Py and display GUI ("compile")
+  - Python file with Eel for startup and functions (backend) - Swann
+  - JavaScript to download and communicate with YouTube using a server (backend) - Luis
+  - Make HTML code for front page (frontend) - Serguei
+  - CSS to style the GUI (backend) - Serguei
+  - Deploy app (compiling) - Swann
 
 ### Resources
 
