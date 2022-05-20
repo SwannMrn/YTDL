@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 <script src='script.js'></script>
 
 
+=======
+>>>>>>> 5d47d845ed0857d6298b3b945123631036abbed7
 var convertBtn = document.querySelector('.convert-button');
 var URLinput = document.querySelector('.URL-input');
 convertBtn.addEventListener('click', () => {
