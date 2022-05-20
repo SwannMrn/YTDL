@@ -1,0 +1,31 @@
+* {
+  text-align:  center;
+  font-family: Monaco, sans-serif;
+}
+
+body {
+  background-color: #19252e;
+}
+
+h1 {
+  color: #c7493a;
+}
+
+input {
+  background-color: #8d99ae;
+  border-radius: 4px 0px 0px 4px;
+  width: 30em;
+  padding: 10px 10px;
+  border: 2px;
+  text-align: left;
+  outline: none;
+}
+
+button {
+  font-size: 1em;
+  padding: 8.5px 10px;
+  border-radius: 0px 4px 4px 0px;
+  border: 2px;
+  background: #c7493a;
+  color:  whitesmoke;
+}
