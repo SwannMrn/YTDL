@@ -21,8 +21,8 @@ input {
   outline: none;
 }
 
-input:hover{
-  color: whitesmoke
+input:hover {
+  color: whitesmoke;
 }
 
 button {
@@ -34,6 +34,6 @@ button {
   color:  whitesmoke;
 }
 
-button:hover{
-  padding: 10px 12px
+button:hover {
+  padding: 10px 12px;
 }
