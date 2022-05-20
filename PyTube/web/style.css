@@ -33,3 +33,7 @@ button {
   background: #c7493a;
   color:  whitesmoke;
 }
+
+button:hover{
+  padding: 10px 12px
+}
