@@ -1,6 +1,6 @@
 # PyTube
 
-### A YouTube Downloader based on Python, JavaScript and HTML using the Eel module (pipy/eel)
+### A YouTube Downloader based on Python, JavaScript and HTML using the [Eel](https://pypi.org/project/Eel/) module
 
 #### ToDo:
   - Python file with Eel for startup and functions (backend)
