@@ -27,6 +27,10 @@ input:hover {
   background-color: #8d99ce;
 }
 
+::placeholder {
+  color: grey;
+}
+
 button {
   font-size: 1em;
   padding: 8.5px 10px;
