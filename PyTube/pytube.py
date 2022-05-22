@@ -4,7 +4,7 @@ import io
 import eel
 import youtube_dl
 
-eel.init('web')
+eel.init('Server')
 
 def ytdl(data):
   link = data
