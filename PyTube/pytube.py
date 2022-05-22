@@ -12,8 +12,4 @@ def ytdl(data):
   with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([link])
 
-def close_callback(route, websockets):
-  if not websockets:
-    exit()
-
-eel.start('index.html', size=(1000, 600), close_callback=close_callback)
+eel.start('index.html', size=(1000, 600))
