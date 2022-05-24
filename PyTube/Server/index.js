@@ -21,9 +21,9 @@ app.get('/', function(req,res){
  res.sendfile(__dirname + '/index.html');
 }); 
 
-function download() {
-  ytdl.validateURL()
-  ytdl('')
+function download(globalVariable.URL) {
+  ytdl.validateURL(globalVariable.URL)
+  ytdl(globalVariable.URL)
     .pipe(fs.createWriteStream('video.mp4'))
   return
 }
