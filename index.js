@@ -9,8 +9,6 @@ app.listen(4000, () => {
     console.log('Server works at port 4000');
 });
 
-app.use(express.static('Server'))
-
 app.use(express.static('PyTube'))
 
 app.get('/download', (req,res) => {
