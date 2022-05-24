@@ -3,8 +3,8 @@
   font-family: Monaco, sans-serif;
 }
 
-body {
-  background-color: #890051;
+#grad {
+  background-image: linear-gradient(#1f1010, #890051)
 }
 
 h1 {
