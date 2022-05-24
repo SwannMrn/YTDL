@@ -4,11 +4,11 @@
 }
 
 body {
-  background-color: #19252e;
+  background-color: #121212;
 }
 
 h1 {
-  color: #c7493a;
+  color: #cf6879;
   font-size: 4em;
 }
 
@@ -23,8 +23,8 @@ input {
 }
 
 input:hover {
-  color: whitesmoke;
-  background-color: #8d99ce;
+  color: #4e76ba;
+  background-color: #8a92ba;
 }
 
 ::placeholder {
@@ -35,8 +35,8 @@ button {
   font-size: 1em;
   padding: 8.5px 10px;
   border-radius: 0px 4px 4px 0px;
-  border: 2px;
-  background: #c7493a;
+  border: 2px #b54235;
+  background: #d14332;
   color:  whitesmoke;
   transition-duration: 0.5s;
 }
