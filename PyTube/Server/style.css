@@ -23,8 +23,8 @@ input {
 }
 
 input:hover {
-  color: #5d7fba;
-  background-color: #7f88b3;
+  color: #4e76ba;
+  background-color: #8a92ba;
 }
 
 ::placeholder {
