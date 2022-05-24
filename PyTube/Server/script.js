@@ -6,6 +6,9 @@ convertBtn.addEventListener('click', () => {
     sendURL(URLinput.value);
 });
 
+var globalVariable={
+  URL: URLinput.value
+}
 
 function sendURL(URL) {
     fetch(`http://localhost:4000/download?URL=${URL}`, {

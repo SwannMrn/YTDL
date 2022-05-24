@@ -18,7 +18,7 @@ app.get('/download', (req,res) => {
 })
 
 app.get('/', function(req,res){
- res.sendFile('Server'+ '/index.html');
+ res.sendfile(__dirname + '/index.html');
 }); 
 
 function download() {
