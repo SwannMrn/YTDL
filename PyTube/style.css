@@ -35,7 +35,7 @@ button {
   font-size: 1em;
   padding: 8.5px 10px;
   border-radius: 0px 4px 4px 0px;
-  border: 2px;
+  border: 2px #b54235;
   background: #d14332;
   color:  whitesmoke;
   transition-duration: 0.5s;
