@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const fs = require('fs')
 const ytdl = require('ytdl-core');
 const app = express();
 
@@ -19,3 +20,10 @@ app.get('/download', (req,res) => {
 app.get('/', function(req,res){
  res.sendfile(__dirname + '/index.html');
 }); 
+
+function download() {
+  ytdl.validateURL()
+  ytdl('')
+    .pipe(fs.createWriteStream('video.mp4'))
+  return
+}
