@@ -4,7 +4,8 @@ const fs = require('fs')
 const ytdl = require('ytdl-core');
 const app = express();
 
-app.use(express.static('public'));
+const path = require('path')
+app.use('/static', express.static(path.join(__dirname, 'public')))
 
 app.use(cors());
 
