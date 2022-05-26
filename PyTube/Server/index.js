@@ -18,10 +18,10 @@ app.get('/download', (req,res) => {
 })
 
 app.get('/', function(req,res){
- res.sendfile(__dirname + '/index.html');
+ res.sendFile(__dirname + '/index.html');
 }); 
 
-function download(globalVariable.URL) {
+function download() {
   ytdl.validateURL(globalVariable.URL)
   ytdl(globalVariable.URL)
     .pipe(fs.createWriteStream('video.mp4'))
