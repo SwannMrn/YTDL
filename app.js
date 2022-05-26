@@ -9,7 +9,19 @@ app.listen(port, () => console.info(`App listening on port ${port}`))
 // Static Files
 app.use(express.static('public'));
 
-// Other olders
-app.use('/css', express.static(__dirname + 'public/css'))
-app.use('/js', express.static(__dirname + 'public/js'))
+app.get('/', function(req,res){
+  res.sendFile(__dirname + '/public/index.html');
+}); 
 
+app.get('/download', (req,res) => {
+    var URL = req.query.URL;
+    res.json({url:URL});
+})
+
+/*function download() {
+  ytdl.validateURL(globalVariable.URL)
+  ytdl(globalVariable.URL)
+    .pipe(fs.createWriteStream('video.mp4'))
+  return
+}
+*/
