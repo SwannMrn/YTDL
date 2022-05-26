@@ -10,8 +10,11 @@
   "author": "Swann, Luis, Sergei",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "ytdl": "^1.4.1",
+    "ytdl-core": "^4.11.0"
   }
 }
