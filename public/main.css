@@ -6,6 +6,8 @@
 body {
   background: #1B1E1F;
   height: 95vh;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 h1 {
@@ -22,6 +24,7 @@ input {
   text-align: left;
   outline: none;
   transition-duration: 0.5s;
+  color: white;
 }
 
 input:hover {
