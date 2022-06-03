@@ -52,7 +52,7 @@ select {
 }
 
 select:hover {
-  background-color: #D3D2C7;
+  background-color: #8ba3f0;
   color: black;
 }
 
@@ -71,7 +71,7 @@ button {
 }
 
 button:hover {
-  background-color: #D3D2C7;
+  background-color: #8ba3f0;
   cursor: pointer;
 }
 
