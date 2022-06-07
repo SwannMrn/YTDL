@@ -47,7 +47,7 @@ There are no ads, no limits to how much videos you can download, and it will alw
 
 ## Installation
 
-Download/Copy the Github repository, or download a release (it's all the way down this page, or on the right).
+Download/Copy the Github repository, or download a release (it's on the right, or [here](https://github.com/SwannMrn/YTDL/releases)).
 
 Go into the ***Setup*** folder, and execute ***node-setup*** file to install NodeJS.
 Execute ***modules-setup*** to install the modules.
