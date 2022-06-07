@@ -24,7 +24,7 @@ The video is deleted once the console is closed/the server is closed (**Ctrl+c**
 
 There it is! It works! 
 
-NB: We also have a mp3 option to download the audio, which uses the same process, except ytdl-core takes the **mp3** argulent to download the audio only.
+NB: We also have a mp3 option to download the audio, which uses the same process, except ytdl-core takes the **mp3** argument to download the audio only.
 
 Note that the only quality available for videos is 720p.
 
@@ -44,6 +44,6 @@ Go into the ***Setup*** folder, and execute ***node-setup*** file to install Nod
 
 Execute ***modules-setup*** to install the modules. 
 
-NB: You need to have finished the installation of NodeJS before (in node-setup).
+NB: You need to have finished the installation of NodeJS before executing modules-setup (in node-setup).
 
 **Done!** To start the website, execute ***start*** in the main folder.
