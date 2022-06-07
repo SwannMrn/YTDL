@@ -4,15 +4,20 @@
 
 ### By Serguei V, Swann M, and Luis BLZ
 
-### ToDo:
+### Who did what
 
-Written in the ***Project*** Tab (top right)
+Written in the ***Project*** Tab [here](https://github.com/users/SwannMrn/projects/1)
+
+or here:
+
+![project_tab](media/project_tab.png)
+
 
 ### How we did it
 
-We made a local server (URL is ***localhost:5000***) using NodeJS, npm and Express (basically JavaScript).
+We made a local server (URL is ***localhost:5000***) using NodeJS, npm and Express (basically JavaScript). In the ***public*** directory made a HTML file with an input, a aselector and a button. We styled it with a bit of CSS.
 
-In the files, there is ***app.js***, which launches and sends the files in the server for use and displays the ***index.html*** file, along with the CSS.
+In the main directory, there is ***app.js***, which launches and sends the files in the server for use and displays the ***index.html*** file, along with the CSS and the JavaScript.
 
 ***script.js*** is the file linked to the ***index.html*** file, which collects the YouTube link in the **text input**.
 
@@ -42,14 +47,19 @@ There are no ads, no limits to how much videos you can download, and it will alw
 
 ### Installation
 
-Remember, you should execute the **.bat** files for Windows, and **.sh** for Linux/Ubuntu!
-
-Download/Copy the Github repository.
+Download/Copy the Github repository, or download a release.
 
 Go into the ***Setup*** folder, and execute ***node-setup*** file to install NodeJS.
-
 Execute ***modules-setup*** to install the modules.
 
-***NB:*** You need to have finished the installation of NodeJS before executing modules-setup (in node-setup).
+![setup_folder](media/setup_folder.png)
+![installation](media/installation.png)
+
+***NB:*** .bat are for windows and .sh for Linux/Ubuntu. You need to have finished the installation of NodeJS before executing modules-setup (in node-setup).
 
 **Done!** To start the website, execute ***start*** in the main folder.
+
+![startbat](media/startbat.png)
+
+
+
