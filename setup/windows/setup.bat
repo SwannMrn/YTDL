@@ -1,4 +1,4 @@
 @echo off
-call %0/Setup/node-setup
+call ~/Setup/node-setup
 pause
-call %0/Setup/modules-setup
+call ~/Setup/modules-setup
