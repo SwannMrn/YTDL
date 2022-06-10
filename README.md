@@ -14,9 +14,63 @@ Written in the ***Project*** Tab [here](https://github.com/users/SwannMrn/projec
 
 Download the release for your system (it's on the right, or [here](https://github.com/SwannMrn/YTDL/releases)).
 
+Extract the folder to a place where he wont move again. Follow the next steps, depending on your system.
+
+### Windows
+
 Execute the ***setup.bat*** file in the main folder.
 
 **Done!** To start the website, execute ***start.bat***.
+
+
+### MacOS
+
+Open your terminal. First, you need to set the terminal to your folder.
+
+```
+cd ~/path/to/folder/
+```
+Of course, replace **path/to/folder/** by the actual path on your computer (ex: **~/Apps/YTDL/**)
+
+Then, you need to execute the bash file to install the needed files for the program to work. Execute these commands:
+
+```
+chmod u+x setup.sh
+sh setup.sh
+```
+
+The program will start automatically after installation.
+
+**Done!** To start the website, execute ***start*** from the terminal when needed (in the good folder too.), like this:
+
+```
+sh start.sh
+```
+
+
+### Linux/Ubuntu
+
+Open your terminal. First, you need to set the terminal to your folder.
+
+```
+cd ~/path/to/folder/
+```
+Of course, replace **path/to/folder/** by the actual path on your computer (ex: **~/Apps/YTDL/**)
+
+Then, you need to execute the bash file to install the needed files for the program to work. Execute these commands:
+
+```
+chmod u+x setup.sh
+bash setup.sh
+```
+
+The program will start automatically after installation.
+
+**Done!** To start the website, execute ***start*** from the terminal when needed (in the good folder too.), like this:
+
+```
+bash start.sh
+```
 
 ## How we did it
 
@@ -49,4 +103,3 @@ Note that the only quality available for videos is 720p.
 The download speed is much speedier than on other websites, since YOU host the server (localhost), it has no capping for download speed. I usually download a 10-15 minutes video in 10 seconds, but it depends of your computer and I teener speed.
 
 There are no ads, no limits to how much videos you can download, and it will always work as long as the **ytdl-core** module is kept up to date!
-
