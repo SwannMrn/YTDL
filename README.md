@@ -14,9 +14,9 @@ Written in the ***Project*** Tab [here](https://github.com/users/SwannMrn/projec
 
 Download the release for your system (it's on the right, or [here](https://github.com/SwannMrn/YTDL/releases)).
 
-Execute the ***setup*** file in the main folder.
+Execute the ***setup.bat*** file in the main folder.
 
-**Done!** To start the website, execute ***start***.
+**Done!** To start the website, execute ***start.bat***.
 
 ## How we did it
 
