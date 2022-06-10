@@ -1,4 +1,4 @@
-# PyTube
+# YTDL
 
 ## A YouTube Downloader based on JavaScript and HTML
 
@@ -6,16 +6,12 @@
 
 ### By Serguei V, Swann M, and Luis BLZ
 
-### Who did what
+## Who did what
 
 Written in the ***Project*** Tab [here](https://github.com/users/SwannMrn/projects/1)
 
-or here:
 
-![project_tab](media/project_tab.png)
-
-
-### How we did it
+## How we did it
 
 We made a local server (URL is ***localhost:5000***) using NodeJS, npm and Express (basically JavaScript). In the ***public*** directory made a HTML file with an input, a aselector and a button. We styled it with a bit of CSS.
 
@@ -41,15 +37,15 @@ NB: We also have a mp3 option to download the audio, which uses the same process
 
 Note that the only quality available for videos is 720p.
 
-### Pros:
+## Pros:
 
-The download speed is much speedier than on other websites, since YOU host the server (localhost), it has no capping for download speed. I usually download a 10-15 minites video in 10 seconds.
+The download speed is much speedier than on other websites, since YOU host the server (localhost), it has no capping for download speed. I usually download a 10-15 minutes video in 10 seconds, but it depends of your computer and I teener speed.
 
 There are no ads, no limits to how much videos you can download, and it will always work as long as the **ytdl-core** module is kept up to date!
 
-### Installation
+## Installation
 
-Download/Copy the Github repository, or download a release.
+Download a release (it's on the right, or [here](https://github.com/SwannMrn/YTDL/releases)).
 
 Go into the ***Setup*** folder, and execute ***node-setup*** file to install NodeJS.
 Execute ***modules-setup*** to install the modules.
