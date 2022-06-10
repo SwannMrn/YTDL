@@ -45,19 +45,11 @@ There are no ads, no limits to how much videos you can download, and it will alw
 
 ## Installation
 
-Download a release (it's on the right, or [here](https://github.com/SwannMrn/YTDL/releases)).
+Download the release for your system (it's on the right, or [here](https://github.com/SwannMrn/YTDL/releases)).
 
-Go into the ***Setup*** folder, and execute ***node-setup*** file to install NodeJS.
-Execute ***modules-setup*** to install the modules.
+Execute the ***setup*** file in the main folder.
 
-![setup_folder](media/setup_folder.png)
-![installation](media/installation.png)
-
-***NB:*** .bat are for windows and .sh for Linux/Ubuntu. You need to have finished the installation of NodeJS before executing modules-setup (in node-setup).
-
-**Done!** To start the website, execute ***start*** in the main folder.
-
-![startbat](media/startbat.png)
+**Done!** To start the website, execute ***start***.
 
 
 
