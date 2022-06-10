@@ -39,13 +39,13 @@ Note that the only quality available for videos is 720p.
 
 ## Pros:
 
-The download speed is much speedier than on other websites, since YOU host the server (localhost), it has no capping for download speed. I usually download a 10-15 minites video in 10 seconds.
+The download speed is much speedier than on other websites, since YOU host the server (localhost), it has no capping for download speed. I usually download a 10-15 minutes video in 10 seconds, but it depends of your computer and I teener speed.
 
 There are no ads, no limits to how much videos you can download, and it will always work as long as the **ytdl-core** module is kept up to date!
 
 ## Installation
 
-Download/Copy the Github repository, or download a release (it's on the right, or [here](https://github.com/SwannMrn/YTDL/releases)).
+Download a release (it's on the right, or [here](https://github.com/SwannMrn/YTDL/releases)).
 
 Go into the ***Setup*** folder, and execute ***node-setup*** file to install NodeJS.
 Execute ***modules-setup*** to install the modules.
