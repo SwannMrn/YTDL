@@ -36,7 +36,7 @@ Then, you need to execute the bash file to install the needed files for the prog
 
 ```
 chmod u+x setup.sh
-sh setup.sh
+sh ~/setup.sh
 ```
 
 The program will start automatically after installation.
@@ -44,7 +44,7 @@ The program will start automatically after installation.
 **Done!** To start the website, execute ***start*** from the terminal when needed (in the good folder too.), like this:
 
 ```
-sh start.sh
+sh ~/start.sh
 ```
 
 
@@ -61,7 +61,7 @@ Then, you need to execute the bash file to install the needed files for the prog
 
 ```
 chmod u+x setup.sh
-bash setup.sh
+bash ~/setup.sh
 ```
 
 The program will start automatically after installation.
@@ -69,7 +69,7 @@ The program will start automatically after installation.
 **Done!** To start the website, execute ***start*** from the terminal when needed (in the good folder too.), like this:
 
 ```
-bash start.sh
+bash ~/start.sh
 ```
 
 ## How we did it
