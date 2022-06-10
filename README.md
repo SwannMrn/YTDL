@@ -1,4 +1,4 @@
-# PyTube
+# YTDL
 
 ## A YouTube Downloader based on JavaScript and HTML
 
