@@ -1,29 +1,29 @@
 # YTDL
 
-## A YouTube Downloader based on JavaScript and HTML
+### A YouTube Downloader based on JavaScript and HTML
 
 ![main_page](media/index.png)
 
 ### By Serguei V, Swann M, and Luis BLZ
 
-## Who did what
+### Who did what
 
 Written in the ***Project*** Tab [here](https://github.com/users/SwannMrn/projects/1)
 
-## Installation
+# Installation
 
 Download the release for your system (it's on the right, or [here](https://github.com/SwannMrn/YTDL/releases)).
 
 Extract the folder to a place where he wont move again. Follow the next steps, depending on your system.
 
-### Windows
+## Windows
 
 Execute the ***setup.bat*** file in the main folder.
 
 **Done!** To start the website, execute ***start.bat***.
 
 
-### MacOS
+## MacOS
 
 Open your terminal. First, you need to set the terminal to your folder.
 
@@ -41,14 +41,14 @@ sh setup.sh
 
 The program will start automatically after installation.
 
-**Done!** To start the website, execute ***start*** from the terminal when needed (in the good folder too.), like this:
+**Done!** To start the website, execute ***start*** from the terminal when needed like this:
 
 ```
-sh start.sh
+sh ~/start.sh
 ```
 
 
-### Linux/Ubuntu
+## Linux/Ubuntu
 
 Open your terminal. First, you need to set the terminal to your folder.
 
@@ -66,10 +66,10 @@ bash setup.sh
 
 The program will start automatically after installation.
 
-**Done!** To start the website, execute ***start*** from the terminal when needed (in the good folder too.), like this:
+**Done!** To start the website, execute ***start*** from the terminal when needed like this:
 
 ```
-bash start.sh
+bash ~/start.sh
 ```
 
 ## How we did it
