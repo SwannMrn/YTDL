@@ -10,10 +10,6 @@
 
 Written in the ***Project*** Tab [here](https://github.com/users/SwannMrn/projects/1)
 
-or here:
-
-![project_tab](media/project_tab.png)
-
 
 ## How we did it
 
