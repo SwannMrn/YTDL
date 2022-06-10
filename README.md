@@ -2,6 +2,8 @@
 
 ## A YouTube Downloader based on JavaScript and HTML
 
+![main_page](media/index.png)
+
 ### By Serguei V, Swann M, and Luis BLZ
 
 ### Who did what
